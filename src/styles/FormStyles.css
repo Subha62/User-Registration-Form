@@ -1,0 +1,130 @@
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 60px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  margin: top 10px;
+}
+
+form .form-group {
+  margin-bottom: 100px;
+}
+
+.label{
+  margin-top: 40px;
+}
+.name{
+  margin-top: 20px;
+}
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.button {
+  width: 15%;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.password{
+  margin-top: 20px;
+}
+
+.password-toggle {
+  margin-top: 6px;
+  background: #eee;
+  border: none;
+  padding: 5px 10px;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.city{
+  margin-top: 10px;
+}
+.country {
+  margin-top: 10px;
+}
+
+.submit {
+  width: 50%;
+  margin-left: 150px;
+
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 50px;
+
+}
+
+.submit-button {
+  width: 50%;
+  margin-left: 150px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.success-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.success-list li {
+  margin: 10px 0;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #eee;
+}
